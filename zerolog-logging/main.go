@@ -9,6 +9,7 @@ import (
 )
 
 // https://betterstack.com/community/guides/logging/zerolog/
+
 func main() {
 	// zerolog.SetGlobalLevel(zerolog.ErrorLevel)
 	logger := zerolog.New(os.Stdout).With().Timestamp().Logger()
